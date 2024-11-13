@@ -1,0 +1,40 @@
+# Node.js関連
+/frontend/pubmed-rag/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# テスト関連
+/coverage
+
+# Next.js関連
+/frontend/pubmed-rag/.next
+
+# ビルド関連
+/build
+
+# 一時ファイルやシステムファイル
+.DS_Store
+*.pem
+
+# デバッグログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ローカル環境ファイル
+.env*.local
+
+# Vercel関連
+.vercel
+
+# TypeScript関連
+*.tsbuildinfo
+next-env.d.ts
+
+# Python仮想環境関連
+.venv
+
+# その他
+*.log
+uv.lock
