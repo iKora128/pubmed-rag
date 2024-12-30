@@ -1,5 +1,5 @@
 # Node.js関連
-/frontend/pubmed-rag/node_modules
+node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -8,7 +8,7 @@
 /coverage
 
 # Next.js関連
-/frontend/pubmed-rag/.next
+.next
 
 # ビルド関連
 /build
@@ -93,3 +93,5 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+.DS_Store
+.python-version
